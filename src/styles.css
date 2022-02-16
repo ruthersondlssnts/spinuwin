@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: grey;
+}
+
+#myCanvas {
+  position: absolute;
+  margin: 4.4% 5%;
+  left: 0;
+  right: 0;
+  top: 0;
+  max-width: 90%;
+}
+
+#bg {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+#logo {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin: 39.5% auto;
+  width: 20%;
+  z-index: -999;
+}
